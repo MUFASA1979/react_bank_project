@@ -13,7 +13,7 @@ function App() {
   const [user, setuser] = useState(false);
 
   return (
-    <UserContext value={{ user, setuser }}>
+    <UserContext.Provider value={[user, setuser]}>
       <div className="App font-mono ">
         <Navbar />
         <Routes>
@@ -25,7 +25,7 @@ function App() {
           <Route path="/users" Component={Users} />
         </Routes>
       </div>
-    </UserContext>
+    </UserContext.Provider>
   );
 }
 

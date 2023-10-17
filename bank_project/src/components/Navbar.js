@@ -8,17 +8,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/">
-              <span className="font-semibold text-xl text-white">MOB</span>
+              <span className="font-semibold text-xl text-white">HOME</span>
             </Link>
           </div>
           <div className="block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <NavLink
-                to="/"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Home
-              </NavLink>
               <NavLink
                 to="/notes"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"

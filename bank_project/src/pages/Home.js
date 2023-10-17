@@ -15,7 +15,7 @@ const Home = () => {
           and authenticated/documented processes for settling financial
           transactions are properly executed. Furthermore, they are key pillars
           of economic growth, as they are among the three main areas of Central
-          Banks’ functions as defined by the Bank for International Settlements,
+          Banks functions as defined by the Bank for International Settlements,
           viz. Implementation of Monetary Policy, Supervision and Oversight over
           Banks and Payment Systems. Payment systems involve many fundamental
           functions related to formulating the financial infrastructure that
