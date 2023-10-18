@@ -8,16 +8,21 @@ import Login from "./pages/Login";
 import Users from "./pages/Users";
 import { useState } from "react";
 import UserContext from "./context/UserContext";
+import Profile from "./pages/Profile";
+import Transactions from "./pages/Transactions";
 
 function App() {
-  const [user, setuser] = useState(false);
+  const [user, setUser] = useState(false);
 
   return (
-    <UserContext.Provider value={[user, setuser]}>
+    <UserContext.Provider value={[user, setUser]}>
       <div className="App font-mono ">
         <Navbar />
         <Routes>
           <Route path="/" Component={Home} />
+          <Route path="/profile" Component={Profile} />
+          <Route path="/transactions" Component={Transactions} />
+          {/* <Route path="/notes" Component={Notes} /> */}
           {/* <Route path="/notes" Component={Notes} /> */}
           {/* <Route path="/notes/:noteId" Component={Note} /> */}
           <Route path="/login" Component={Login} />

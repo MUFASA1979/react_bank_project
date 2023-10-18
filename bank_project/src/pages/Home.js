@@ -7,30 +7,13 @@ const Home = () => {
         <h1 className="text-6xl font-bold mb-8">
           WELCOME TO MUSTAFA & OMAR BANK
         </h1>
+        <img src="https://ae01.alicdn.com/kf/S75256e57d00643478eb6c8bfddda539am/Tupac-2PAC-Canvas-Inspirational-100-Dollar-Creative-Money-Paintings-Rapper-Star-Prints-Art-Poster-Wall-Picture.jpg" />
         <p className="text-2xl leading-relaxed text-left">
-          Payment systems are key elements utilized to realize monetary and
-          financial stability, serving as launch pad to implement the monetary
-          policy activities through a reliable mechanism that guarantees
-          policies are implemented efficiently and yield the desired results,
-          and authenticated/documented processes for settling financial
-          transactions are properly executed. Furthermore, they are key pillars
-          of economic growth, as they are among the three main areas of Central
-          Banks functions as defined by the Bank for International Settlements,
-          viz. Implementation of Monetary Policy, Supervision and Oversight over
-          Banks and Payment Systems. Payment systems involve many fundamental
-          functions related to formulating the financial infrastructure that
-          aids in realizing financial stability. Accordingly, the Central Bank
-          of Kuwait constantly works to bolster the integrity and efficiency of
-          these systems to stay abreast of ever-evolving payment services and
-          instruments, with all that entails in terms of increasing volume and
-          diversity of transactions. The aim is to ensure provision of secure
-          and highly efficient payment services that accommodate the needs of
-          the customers and earn their satisfaction through a set of means and
-          procedures of financial payment and settlement based on an integrated
-          and fortified infrastructure, to secure the integrity and efficiency
-          of these systems and, hence, monetary and financial stability. Payment
-          systems are generally categorized as either Large-value Payment
-          Systems (LVPSs) or Retail Payment Systems.
+          Money laundering is the process of illegally concealing the origin of
+          money, obtained from illicit activities such as drug trafficking,
+          corruption, embezzlement or gambling, by converting it into a
+          legitimate source. It is a crime in many jurisdictions with varying
+          definitions. It is usually a key operation of organized crime..
         </p>
       </div>
     </div>

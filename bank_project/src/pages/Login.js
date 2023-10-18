@@ -17,7 +17,7 @@ const Login = () => {
     mutationFn: () => login(userInfo),
     onSuccess: () => {
       setUser(true);
-      navigate("/");
+      navigate("/profile");
     },
   });
 
@@ -34,15 +34,15 @@ const Login = () => {
         <form onSubmit={handleFormSubmit}>
           <div className="mb-4">
             <label
-              htmlFor="email"
+              htmlFor="username"
               className="block text-white text-sm font-medium mb-2"
             >
-              Email
+              username
             </label>
             <input
-              type="email"
-              name="email"
-              id="email"
+              type="text"
+              name="username"
+              id="username"
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
